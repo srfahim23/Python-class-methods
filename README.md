@@ -30,3 +30,8 @@ To define a class method, you simply use the
 definition. The first argument of the method should
 always be "cls," which represents the class itself. Here
 is an example of how to define a class method:
+
+    class ExampleClass:
+        @classmethod
+        def factory_method(cls, argument1, argument2):
+        return cls(argument1, argument2)
