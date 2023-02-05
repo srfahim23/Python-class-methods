@@ -23,3 +23,10 @@ Class methods are useful in several situations. For
 example, you might want to create a factory method
 that creates a factory method that creates instances of your class in a specific way. You could define a class method that creates the 
 instance and returns it to the caller. Another common use case is to provide alternative constructors for your class. This can be useful if you want to create instances of your class in multiple ways, but still have a consistent interface for doing so.
+
+# How to Use Python Class Methods
+To define a class method, you simply use the 
+"@classmethod" decorator before the method 
+definition. The first argument of the method should
+always be "cls," which represents the class itself. Here
+is an example of how to define a class method:
