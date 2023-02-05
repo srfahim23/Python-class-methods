@@ -17,3 +17,9 @@ defined using the "@classmethod" decorator, followed
 by a function definition. The first argument of the 
 function is always "cls," which represents the class
 itself
+
+# Why Use Python Class Methods?
+Class methods are useful in several situations. For
+example, you might want to create a factory method
+that creates a factory method that creates instances of your class in a specific way. You could define a class method that creates the 
+instance and returns it to the caller. Another common use case is to provide alternative constructors for your class. This can be useful if you want to create instances of your class in multiple ways, but still have a consistent interface for doing so.
