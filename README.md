@@ -35,3 +35,13 @@ is an example of how to define a class method:
         @classmethod
         def factory_method(cls, argument1, argument2):
         return cls(argument1, argument2)
+
+In this example, the "factory_method" is a class
+method that takes two arguments, "argument1" and
+"argumetn2." It creates a new instance of the class
+"ExampleClass" using the "cls" keyword, and returnss
+the new instance to the caller.
+
+It's important to note that class methods cannot modify 
+the class in any way. If you need to modify the class,
+you should use a class level variable instead.
